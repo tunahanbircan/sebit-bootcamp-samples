@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS FORM</title>
     <style>
-      input[type="text"],
-      select {
+      .formElement {
         width: 100%;
         padding: 10px;
         border-radius: 10px;
         margin: 8px 0px;
         box-sizing: border-box;
+        border: 1px solid red;
       }
-      input[type="text"]:focus {
+      .formElement:focus {
         background-color: lightgreen !important;
       }
-      input[type="text"]:hover {
+      .formElement:hover {
         background-color: red;
       }
 
-      input[type="submit"] {
+      .formSubmit {
         width: 100%;
         padding: 13px;
         background-color: lightgreen;
@@ -39,16 +39,26 @@
   <body>
     <form class="formGeneral">
       <label>Ad: </label>
-      <input type="text" name="firstName" placeholder="Adınızı giriniz" />
+      <input
+        type="text"
+        class="formElement"
+        name="firstName"
+        placeholder="Adınızı giriniz"
+      />
       <label>Soyad: </label>
-      <input type="text" name="lastName" placeholder="Soyadınızı giriniz" />
+      <input
+        type="text"
+        class="formElement"
+        name="lastName"
+        placeholder="Soyadınızı giriniz"
+      />
       <label>Şehirler</label>
-      <select name="country">
+      <select class="formElement" name="country">
         <option value="tr">Türkiye</option>
         <option value="fr">Français</option>
         <option value="en">England</option>
       </select>
-      <input type="submit" value="Kaydet" />
+      <input class="formSubmit" type="submit" value="Kaydet" />
     </form>
   </body>
 </html>
