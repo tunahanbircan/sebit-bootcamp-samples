@@ -1,0 +1,23 @@
+<!-- The `[(counter)]="counterValue"` passes the counterValue from app.component.ts into the child component with the name `counter`. The `(counterChange)="myValueChange($event);"` will call the myValueChange function if the value of counterChange changes (as it does in the case of an `emit`). -->
+<div
+  style="
+    padding: 10px;
+    border-radius: 10px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 25vh;
+  "
+>
+  <custom-counter
+    [(counter)]="counterValue"
+    (counterChange)="myValueChange($event)"
+  ></custom-counter>
+  <p>
+    <code>counterValue = {{ counterValue }}</code>
+  </p>
+  <hr />
+</div>
