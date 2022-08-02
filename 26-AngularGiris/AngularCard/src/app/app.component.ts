@@ -21,7 +21,7 @@ export class AppComponent {
       title: 'Tırmanış',
       imageUrl: 'assets/paragliding.jpg',
       username: 'cbuludag',
-      content: 'Bugünde iyi tırmandım',
+      content: 'Bugün de iyi tırmandım',
     },
     {
       title: 'Surf',
