@@ -1,0 +1,8 @@
+.pageClass {
+  display: flex;
+  justify-content: center;
+}
+
+.imageClass {
+  text-align: center;
+}
