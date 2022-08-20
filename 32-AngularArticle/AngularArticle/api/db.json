@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "author": "ttt",
+      "title": "tttt",
+      "content": "tttt",
+      "comments": [
+        {
+          "username": "lorem",
+          "comment": "loremloremloremloremloremloremloremloremloremloremloremloremlorem"
+        },
+        {
+          "username": "kullanıcı2",
+          "comment": "testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "author": "Testimmm",
+      "title": "tttt",
+      "content": "wadasfasf",
+      "comments": [],
+      "id": 2
+    },
+    {
+      "author": "dsdssdsdsdssd",
+      "title": "sdsdsfssdgs",
+      "content": "sdğdsgğsdlgsşlşi",
+      "comments": [],
+      "id": 3
+    }
+  ]
+}
